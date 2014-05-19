@@ -1,0 +1,138 @@
+---
+layout: default
+---
+
+
+<div class="fwmain">
+		<div class="fwmain_left edit_putHere" id="edit_putHere_area1" savetitle="area1">
+			<div class="label clear" id="382" rel="382" titles="自定义内容">
+	<div class="label_head">
+		<div class="label_title">公司简介</div>
+		<div class="link_more"><a href="/about/" target="_blank" class="more">更多</a></div>
+	</div>
+	<div class="label_content">
+		<div class="about_con clearfix">
+			<ul id="udContent382"><li><img src="/assets/inco1.jpg" style="float:left; margin-right:15px;">多年来东莞荣安物流公司以“诚信为本，客户至上，安全快捷”为企业运作之宗旨。充分为客户着想，高质量的为客户提供完善的运输服务，我公司全体员工欢迎您的来电咨询或上门洽谈，我们将以诚信、优质的服务、优惠的运价为您成功的事业助一份力。</li></ul>
+		</div>
+	</div>
+	<div class="label_foot"></div>
+</div>
+
+		</div>
+		<div class="fwmain_center edit_putHere" id="edit_putHere_area2" savetitle="area2">
+			<div class="label clear" id="383" rel="383" titles="文章列表">
+	<div class="label_head">
+		<div class="label_title">新闻资讯</div>
+		<div class="link_more"><a class="more" href="" title="新闻资讯">更多</a></div>
+	</div>
+	<div class="label_content">
+		<div class="item_list id383">
+			<ul class="clearfix" id="hrieList407" style="min-height: 140px;">
+				{% for post in paginator.posts %}
+				  {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
+				  <li class="animated wobble">
+				  	<a title="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a>
+				  	<!-- <span class="datetime">{{ post.date | date:"%Y-%m-%d" }}</span> --></li>
+				  <!-- <li class="listing-item">
+				    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+				    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> -->
+				    
+				  </li>
+				{% endfor %}
+				</ul>
+			<!-- <ul class="clearfix" id="articlelist383">
+				<li><a title="网站新闻测试网站新闻测试网站" href="http://21yunmod0051.view.55hl.net/118/0/53">网站新闻测试网站新闻测试网站</a><span class="datetime">2014-1-22</span></li>
+				<li><a title="网站新闻测试网站新闻测试网站" href="http://21yunmod0051.view.55hl.net/118/0/52">网站新闻测试网站新闻测试网站</a><span class="datetime">2013-10-18</span></li>
+				<li><a title="网站新闻测试网站新闻测试网站" href="http://21yunmod0051.view.55hl.net/118/0/51">网站新闻测试网站新闻测试网站</a><span class="datetime">2013-10-18</span></li>
+				<li><a title="网站新闻测试网站新闻测试网站" href="http://21yunmod0051.view.55hl.net/118/0/44">网站新闻测试网站新闻测试网站</a><span class="datetime">2013-10-18</span></li>
+				<li><a title="网站新闻测试网站新闻测试网站" href="http://21yunmod0051.view.55hl.net/118/0/43">网站新闻测试网站新闻测试网站</a><span class="datetime">2013-10-18</span></li>
+				<li><a title="网站新闻测试网站新闻测试网站" href="http://21yunmod0051.view.55hl.net/118/0/eeee">网站新闻测试网站新闻测试网站</a><span class="datetime">2013-10-18</span></li>
+			</ul> -->
+		</div>
+	</div>
+	<div class="label_foot"></div>
+</div>
+
+		</div>
+		<div class="fwmain_right edit_putHere" id="edit_putHere_area3" savetitle="area3">
+			<div class="label clear" id="413" rel="413" titles="">
+	<div class="label_head">
+		<div class="label_title">服务中心</div>
+	</div>
+	<div class="label_content">
+		<div class="about_con clearfix">
+			<ul id="udContent413"><li>地址：广东省东莞市XXXX开发区XXX路<br>
+电话：0000-00000000<br>
+手机：189000000000<br>
+联系人：王经理<br>
+邮政编号：000000<br>
+网站：dgrawl.com<br>
+邮箱：dgrawl@163.com<br></li></ul>
+		</div>
+	</div>
+	<div class="label_foot"></div>
+</div>
+
+		</div>
+		<div class="clear"></div>
+		<div class="fwmain_total edit_putHere" id="edit_putHere_area4" savetitle="area4">
+			<div class="label clear" id="379" rel="379" titles="产品列表">
+	<div class="label_content">
+		<div class="pic_list1 pic_list_roll" id="pic_list379">
+			<div class="tempWrap" style="overflow:hidden; position:relative; width:990px"><ul class="clearfix" id="prolist379" style="width: 2475px; position: relative; overflow: hidden; padding: 0px; margin: 0px; left: -1127px;"><li class="clone" style="float: left; width: 165px;">
+					<a title="产品" href="#"><img src="/assets/7.jpg" style=" width:150px; height:120px;" alt="">
+					<p class="title">产品</p></a>
+				</li>
+				<li style="float: left; width: 165px;">
+					<a title="产品" href="#"><img src="/assets/8.jpg" style=" width:150px; height:120px;" alt="">
+					<p class="title">产品</p></a>
+				</li>
+				<li style="float: left; width: 165px;">
+					<a title="产品" href="#"><img src="/assets/1.jpg" style=" width:150px; height:120px;" alt="">
+					<p class="title">产品</p></a>
+				</li>
+				<li style="float: left; width: 165px;">
+					<a title="产品" href="#"><img src="/assets/2.jpg" style=" width:150px; height:120px;" alt="">
+					<p class="title">产品</p></a>
+				</li>
+				<li style="float: left; width: 165px;">
+					<a title="产品" href="#"><img src="/assets/3.jpg" style=" width:150px; height:120px;" alt="">
+					<p class="title">产品</p></a>
+				</li>
+				<li style="float: left; width: 165px;">
+					<a title="产品" href="#"><img src="/assets/4.jpg" style=" width:150px; height:120px;" alt="">
+					<p class="title">产品</p></a>
+				</li>
+				<li style="float: left; width: 165px;">
+					<a title="产品" href="#"><img src="/assets/5.jpg" style=" width:150px; height:120px;" alt="">
+					<p class="title">产品</p></a>
+				</li>
+				<li style="float: left; width: 165px;">
+					<a title="产品" href="#"><img src="/assets/6.jpg" style=" width:150px; height:120px;" alt="">
+					<p class="title">产品</p></a>
+				</li>
+				<li style="float: left; width: 165px;">
+					<a title="产品" href="#"><img src="/assets/7.jpg" style=" width:150px; height:120px;" alt="">
+					<p class="title">产品</p></a>
+				</li>
+			</ul></div>
+		</div>
+	</div>
+	<div class="label_foot"></div>
+</div>
+<script type="text/javascript">jQuery('#pic_list379').slide({ mainCell:'ul',autoPlay:true,effect:'leftMarquee',interTime:50,vis:6  });</script>
+
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
