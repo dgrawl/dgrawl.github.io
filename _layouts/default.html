@@ -34,40 +34,19 @@ background-image:url(/template/images/bg.jpg);background-repeat:repeat-x;
 <style id="clearly_highlighting_css" type="text/css">/* selection */ html.clearly_highlighting_enabled ::-moz-selection { background: rgba(246, 238, 150, 0.99); } html.clearly_highlighting_enabled ::selection { background: rgba(246, 238, 150, 0.99); } /* cursor */ html.clearly_highlighting_enabled {    /* cursor and hot-spot position -- requires a default cursor, after the URL one */    cursor: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--cursor.png") 14 16, text; } /* highlight tag */ em.clearly_highlight_element {    font-style: inherit !important; font-weight: inherit !important;    background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--yellow.png");    background-repeat: repeat-x; background-position: top left; background-size: 100% 100%; } /* the delete-buttons are positioned relative to this */ em.clearly_highlight_element.clearly_highlight_first { position: relative; } /* delete buttons */ em.clearly_highlight_element a.clearly_highlight_delete_element {    display: none; cursor: pointer;    padding: 0; margin: 0; line-height: 0;    position: absolute; width: 34px; height: 34px; left: -17px; top: -17px;    background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--delete-sprite.png"); background-repeat: no-repeat; background-position: 0px 0px; } em.clearly_highlight_element a.clearly_highlight_delete_element:hover { background-position: -34px 0px; } /* retina */ @media (min--moz-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {    em.clearly_highlight_element { background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--yellow@2x.png"); }    em.clearly_highlight_element a.clearly_highlight_delete_element { background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--delete-sprite@2x.png"); background-size: 68px 34px; } } </style><style>.jp-invisible { visibility: hidden !important; } .jp-hidden { display: none !important; }</style><style>[touch-action="none"]{ -ms-touch-action: none; touch-action: none; }[touch-action="pan-x"]{ -ms-touch-action: pan-x; touch-action: pan-x; }[touch-action="pan-y"]{ -ms-touch-action: pan-y; touch-action: pan-y; }[touch-action="scroll"],[touch-action="pan-x pan-y"],[touch-action="pan-y pan-x"]{ -ms-touch-action: pan-x pan-y; touch-action: pan-x pan-y; }</style></head>
 <body style="background: #ecf4fd;">
   
-<div id="BNreturnTopDiv"></div>
+<div id="BNreturnTopDiv" style="margin-top:5px;"></div>
 <div class="fwtop">
   <div class="fwtop_cont">
-    <div class="fwtop_logo">
+    <!-- <div class="fwtop_logo">
       <div class="top_logo" id="top_logo">
-  <img src="/favicon.jpg" width="138" height="82" alt="荣安" title="test">
+  <img src="/favicon.jpg" width="138" height="82" alt="荣安" title="test" style='float:left;'>
 </div>
 
-    </div>
-    <div class="fwtop_info">
-      <div class="topSearch clear" id="topSearch">
-  <div class="search">
-  <!-- <input type="text" id="siteSearchContent" value="请输入关键字..." class="enter"> -->
-  <!-- <div class="select" onmouseover="displaySiteSearch($(this))" onmouseout="hideSiteSearch(event,$(this))" id="search">
-    <span class="select_info" id="siteSelect_info"><a href="javascript:void(0)" rel="新闻">新闻</a></span>
-    <span class="select_search" id="select_siteSearch">
-      <ul>
-        <li><a href="javascript:void(0)" rel="新闻">新闻</a></li>
-        <li><a href="javascript:void(0)" rel="产品">产品</a></li>
-        <li><a href="javascript:void(0)" rel="下载">下载</a></li>
-        <li><a href="javascript:void(0)" rel="招聘">招聘</a></li>
-      </ul>
-    </span>
-  </div>
-  <input id="siteSearchSubmit" type="button" class="btn"> -->
-</div>
-
-
-
-</div>
-
-    </div>
+    </div> -->
+    
     <div class="clear"></div>
     <div class="fwtop_mainNav">
+      <img src="/favicon.jpg" width="138" height="50" alt="荣安" title="test" style='float:left;'>
       <div class="siteMainNav fwtop_nav fwnavlink" id="siteMainNav">
   <ul>
     <li><a href="/">网站首页</a></li>
@@ -80,7 +59,7 @@ background-image:url(/template/images/bg.jpg);background-repeat:repeat-x;
 <div class="clear"></div>
 </div>
     </div>
-    <div class="clear fwtop_banner">
+    <div class="clear fwtop_banner " style="margin-top:5px;">
       <div class="siteBanner" id="siteBanner">
 <div class="hd">
 <ul><li class="on">1</li><li>2</li><li>3</li></ul>
