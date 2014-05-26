@@ -3,14 +3,13 @@ title: 关于
 layout: news
 
 ---
-<div class="fwmain fwtop_cont">
+<div class="fwmain">
 
+<div class="panel panel-primary">
+  <div class="panel-heading">物流百科</div>
+  <div class="panel-body">
 
-<span style="color: rgb(51, 51, 51); font-family: 宋体; font-size: 16px; line-height: 24px; white-space: normal; ">　　
-
-<div class="formMiddleContent formMiddleContent302">
-	<div class="textImg5"><img alt="" title="" src="/assets/bk.jpg" style="width:500px;height:320px;float:right;"></div>
-	<div class="richContent richContent5">
+ <img alt="" title="" src="/assets/bk.jpg" style="width:500px;height:320px;float:right;">
 		<p >
 
 对于“物流”的概念，不同国家不同机构不同时期有所不同，关于物流活动的最早文献记载是在英国。1918年，英国犹尼利弗的哈姆勋爵成立了“即时送货股份有限公司”，目的是在全国范围内把商品及时送到批发商、零售商和用户手中。二战期间，美国从军事需要出发，在对军火进行的战时供应中，首先采用了“物流管理”（logistics management）这一词，并对军火的运输、补给、屯驻等进行全面管理。二战后，“物流”一词被美国人借用到企业管理中，被称作“企业物流（business logistics）。企业物流是指对企业的供销、运输、存储等活动进行综合管理。
